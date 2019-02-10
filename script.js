@@ -11,7 +11,7 @@ const questionBank = [
             getCorrect: function() {
                 return this.answer3;
             },
-            correctDetail: `Others contend that pierogi were brought to Poland by Saint Hyacinth of Poland, 
+            correctDetail: `(Ukraine) Some contend that pierogi were brought to Poland by Saint Hyacinth of Poland, 
             who brought them back from Kiev (the center of Kievan Rus', nowadays the capital of Ukraine).`
         },
         imageUrl: "img/perogi2.jpeg",
@@ -27,7 +27,7 @@ const questionBank = [
             getCorrect:  function() {
                 return this.answer2;
             },
-            correctDetail: `Lionel Sternberger is reputed to have introduced the 
+            correctDetail: `(US) Lionel Sternberger is reputed to have introduced the 
             cheeseburger in 1926 at the age of 16 when he was working as a 
             fry cook at his father's Pasadena, California sandwich shop, "The Rite Spot",
              and experimentally dropped a slab of American cheese on a sizzling hamburger.`
@@ -45,10 +45,10 @@ const questionBank = [
             getCorrect:  function() {
                 return this.answer1;
             },
-            correctDetail: "`Tofu has been consumed for more than 2000 years in China.`"
+            correctDetail: "`(China) Tofu has been consumed for more than 2000 years in China.`"
         },
         imageUrl: "img/tofu2.jpeg",
-        imageAlt: "a block of solid tofu on a wooden cutting boar. A small pile of greens and a small pile of cubed tofu are also on the cutting board."
+        imageAlt: "a block of solid tofu on a wooden cutting board. A small pile of greens and a small pile of cubed tofu are also on the cutting board."
       },
       {
         question: "Where was the first pizza made according to pizza lore?",
@@ -60,7 +60,7 @@ const questionBank = [
             getCorrect:  function() {
                 return this.answer4;
             },
-            correctDetail: `An often recounted story holds that on 11 June 1889, to honour the Queen consort 
+            correctDetail: `(Italy) An often recounted story holds that on 11 June 1889, to honour the Queen consort 
             of Italy, Margherita of Savoy, the Neapolitan pizza maker Raffaele Esposito created the "Pizza Margherita"
             , a pizza garnished with tomatoes, mozzarella, and basil, to represent the national colours of Italy as 
             on the Italian flag.`
@@ -78,7 +78,7 @@ const questionBank = [
             getCorrect:  function() {
                 return this.answer3;
             },
-            correctDetail: `Hanson Gregory, an American, claimed to have invented the ring-shaped doughnut 
+            correctDetail: `(US) Hanson Gregory, an American, claimed to have invented the ring-shaped doughnut 
             in 1847 aboard a lime-trading ship when he was 16 years old. Gregory was dissatisfied with the 
             greasiness of doughnuts twisted into various shapes and with the raw center of regular doughnuts.`
         },
@@ -95,7 +95,7 @@ const questionBank = [
             getCorrect:  function() {
                 return this.answer1;
             },
-            correctDetail: `The earliest extant description of what is now often called a cupcake was in 1796,
+            correctDetail: `(US) The earliest extant description of what is now often called a cupcake was in 1796,
              when a recipe for "a light cake to bake in small cups" was written in American Cookery by Amelia Simmons`
         },
         imageUrl: "img/cupcake1.jpeg",
@@ -111,7 +111,7 @@ const questionBank = [
             getCorrect:  function() {
                 return this.answer4;
             },
-            correctDetail: `Curry (plural curries) is a variety of dishes originating in the Indian subcontinent 
+            correctDetail: `(India) Curry (plural curries) is a variety of dishes originating in the Indian subcontinent 
             that use a complex combination of spices or herbs, usually including ground turmeric, cumin, coriander,
              ginger, and fresh or dried chilies.`
             },
@@ -128,7 +128,7 @@ const questionBank = [
             getCorrect:  function() {
                 return this.answer2;
             },
-            correctDetail: `The London department store Fortnum & Mason claims to have invented Scotch eggs in 
+            correctDetail: `(England) The London department store Fortnum & Mason claims to have invented Scotch eggs in 
             1851 but the name for the snack was supposedly derived from a nickname used by Londoners who lived 
             around Wellington Barracks after Officers of the Scots Guards stationed there developed a taste for the snack`
         },
@@ -146,7 +146,7 @@ const questionBank = [
             getCorrect:  function() {
                 return this.answer1;
             },
-            correctDetail: `The term hamburger originally derives from Hamburg, Germany's s
+            correctDetail: `(US) The term hamburger originally derives from Hamburg, Germany's s
             econd-largest city but the actual sandwich may have been done first in New Haven CT, 
             in 1900 Louis Lassen, a Danish immigrant, owner of Louis' Lunch.`
         },
@@ -163,10 +163,10 @@ const questionBank = [
             getCorrect:  function() {
                 return this.answer4;
             },
-            correctDetail: `The earliest form of sushi, a dish today known as narezushi, 
+            correctDetail: `(South East Asia) The earliest form of sushi, a dish today known as narezushi, 
             has its probable origin with paddy fields along the Mekong river in Southeast Asia. 
             The prototypical narezushi is made by lacto-fermenting fish with salt and rice in
-             order to control putrefaction.( Southeast Asia).`
+             order to control putrefaction.`
         },
         imageUrl: "img/sushi3.jpeg",
         imageAlt: "An oval platter with sliced nori wrapped sushi rolls, stacked. Chopsticks lay across the platter."
@@ -203,7 +203,7 @@ const STORE = [{
         getCorrect: function() {
             return this.answer3;
         },
-        correctDetail: "Others contend that pierogi were brought to Poland by Saint Hyacinth of Poland, who brought them back from Kiev (the center of Kievan Rus', nowadays the capital of Ukraine)."
+        correctDetail: "(Ukraine) Some contend that pierogi were brought to Poland by Saint Hyacinth of Poland, who brought them back from Kiev (the center of Kievan Rus', nowadays the capital of Ukraine)."
     },
     imageUrl: "img/perogi2.jpeg",
     imageAlt: "white, round plate with seven perogi with light browning."
